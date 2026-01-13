@@ -141,19 +141,6 @@ button:hover {
   flex-wrap: wrap;
 }
 
-.total-marks {
-  font-size: 13px;
-  color: #374151;
-  margin-left: 4px;
-}
-
-.grade {
-  font-size: 13px;
-  font-weight: bold;
-  color: #1e40af;
-}
-
-
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
   .subject {
@@ -166,6 +153,7 @@ button:hover {
     margin: 10px 0;
   }
 }
+
 
 
 
