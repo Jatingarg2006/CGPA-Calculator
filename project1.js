@@ -29,10 +29,6 @@ calcBtn.addEventListener("click", function () {
     const endSem = Number(sub.querySelector(".endsem").value);
     const credits = Number(sub.querySelector(".credits").value);
 
-    const total = internal + endSem;
-    totalSpan.textContent = Total : ${total}/100;
-    gradeSpan.textContent = Grade : ${getGrade(total)};
-
     if (
       internal < 0 || internal > 40 ||
       endSem < 0 || endSem > 60 ||
@@ -107,4 +103,5 @@ function getGrade(total) {
   if (total >= 40) return "C";
   return "F";
 }
+
 
