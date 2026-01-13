@@ -152,6 +152,20 @@ body {
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
+/* ===== Grade System Table ===== */
+
+.grading-system th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.grading-system tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.grading-system tr:hover {
+  background-color: #eef2ff;
+}
 
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
@@ -165,6 +179,7 @@ body {
     margin: 10px 0;
   }
 }
+
 
 
 
