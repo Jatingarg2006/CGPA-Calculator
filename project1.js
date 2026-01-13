@@ -9,11 +9,12 @@ const container = document.getElementById("subjects-container");
 // --- Function to calculate grade point (IPU style) ---
 function getGradePoint(total) {
   if (total >= 90) return 10;
-  if (total >= 80) return 9;
-  if (total >= 70) return 8;
-  if (total >= 60) return 7;
+  if (total >= 75) return 9;
+  if (total >= 65) return 8;
+  if (total >= 55) return 7;
   if (total >= 50) return 6;
-  if (total >= 40) return 5;
+  if (total >= 45) return 5;
+  if (total >= 40) return 4;
   return 0;
 }
 
@@ -103,5 +104,6 @@ function getGrade(total) {
   if (total >= 40) return "C";
   return "F";
 }
+
 
 
