@@ -140,6 +140,18 @@ button:hover {
   gap: 8px;
   flex-wrap: wrap;
 }
+/* ===== Page & Card Layout ===== */
+
+body {
+  background-color: #eef2f7;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
 
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
@@ -153,6 +165,7 @@ button:hover {
     margin: 10px 0;
   }
 }
+
 
 
 
