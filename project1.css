@@ -132,6 +132,27 @@ button:hover {
   margin-bottom: 12px;
 }
 
+/* ===== Subject Result Display ===== */
+
+.subject-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.total-marks {
+  font-size: 13px;
+  color: #374151;
+  margin-left: 4px;
+}
+
+.grade {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1e40af;
+}
+
 
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
@@ -145,6 +166,7 @@ button:hover {
     margin: 10px 0;
   }
 }
+
 
 
 
