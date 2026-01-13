@@ -29,6 +29,10 @@ calcBtn.addEventListener("click", function () {
     const endSem = Number(sub.querySelector(".endsem").value);
     const credits = Number(sub.querySelector(".credits").value);
 
+    const total = internal + endSem;
+    totalSpan.textContent = Total : ${total}/100;
+    gradeSpan.textContent = Grade : ${getGrade(total)};
+
     if (
       internal < 0 || internal > 40 ||
       endSem < 0 || endSem > 60 ||
@@ -93,3 +97,14 @@ addSubjectRow(false); // don't auto-focus
 addBtn.addEventListener("click", function () {
   addSubjectRow(); // adds new row and focuses first input
 });
+
+function getGrade(total) {
+  if (total >= 90) return "O";
+  if (total >= 80) return "A+";
+  if (total >= 70) return "A";
+  if (total >= 60) return "B+";
+  if (total >= 50) return "B";
+  if (total >= 40) return "C";
+  return "F";
+}
+
