@@ -60,6 +60,7 @@ button {
   cursor: pointer;
   font-weight: bold;
   font-size: 14px;
+  position: center;
   transition: background 0.2s, transform 0.1s;
 }
 
@@ -113,4 +114,5 @@ footer {
     margin: 10px 0;
   }
 }
+
 
