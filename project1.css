@@ -167,6 +167,30 @@ body {
   background-color: #eef2ff;
 }
 
+/* ===== Syllabus PDF LInk ===== */
+.syllabus-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.syllabus-section h2 {
+  margin-bottom: 10px;
+}
+
+.syllabus-link {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #000;
+}
+
+.syllabus-link:hover {
+  background-color: #f0f0f0;
+}
+
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
   .subject {
@@ -179,6 +203,7 @@ body {
     margin: 10px 0;
   }
 }
+
 
 
 
